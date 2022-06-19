@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.h3_info {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Secular One', sans-serif;
+    background-color: white;
+    margin-top: 0px;
+    padding:15px 0px 15px 0px;
+    font-size: 30px;
+}
+.span_note{
+    /* color: ; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: red;
+}
+hr {
+    height: 10px;
+    /* color: black; */
+    background-color: black;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width:100%;
+    background-color: white;
+    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+}
+canvas {
+    background-color: white;
+    /* background: pink; */
+	/* border-radius: 20px; */
+	position: absolute;
+	/* transform: translate(-50%, -50%); */
+	border: 10px solid transparent;
+	border-image:linear-gradient(45deg, #00FFFF, #89CFF0, blue, #088F8F, #0096FF) ;
+	border-image-slice:1;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    margin-left:615px;
+    margin-top:50px;
+}
+.font_size {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+video {
+    margin-left: 15px;
+}
